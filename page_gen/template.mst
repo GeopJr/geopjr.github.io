@@ -1,140 +1,128 @@
 <div class="posts">
-  <h1 class="title {{ devider }}">{{ headline }}</h1>
-  {{#tags}}
-  <tag class="{{ type }}">{{ text }}</tag>
-  {{/tags}}
-  {{#hasMirrors}}
-  <div id="mirrors">
-    {{#mirrors}}
-    <a href="{{ url }}" class="{{ type }}">{{ text }}</a>
-    {{/mirrors}}
-  </div>
-  {{/hasMirrors}}
-  {{#hasCards}}
-  <div class="pure-g card-gallery">
-    {{#cards}}
-    {{#github}}
-    <div class="pure-u-md-1-3 pure-u-1-1">
-      <div class="card">
-        <div class="card-img">
-          <img src="{{ gh_image }}" alt="avatar" class="pure-img" />
+    <h1 class="title {{ devider }}">{{ headline }}</h1>
+    {{#tags}}
+        <tag class="{{ type }}">{{ text }}</tag>
+    {{/tags}}
+    {{#hasMirrors}}
+        <div id="mirrors">
+            {{#mirrors}}
+                <a href="{{ url }}" class="{{ type }}">{{ text }}</a>
+            {{/mirrors}}
         </div>
-        <div class="card-topic">
-          <h4>{{ gh_topic }}</h4>
-        </div>
-        <div class="card-title">
-          <h4>
-            <a href="{{ gh_url }}"
-              ><b>{{ gh_name }}</b></a
-            >
-          </h4>
-        </div>
-        <div class="content-container">
-          <p>{{ gh_description }}</p>
-          <div id="card-buttons">
-            {{#buttons}}
-            <a href="{{ url }}">{{ name }}</a>
-            {{/buttons}}
-          </div>
-        </div>
-      </div>
-    </div>
-    {{/github}}
+    {{/hasMirrors}}
+    {{#hasCards}}
+        <div class="pure-g card-gallery">
+            {{#cards}}
+                {{#github}}
+                    <div class="pure-u-md-1-3 pure-u-1-1">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="{{ gh_image }}" alt="avatar" class="pure-img"/>
+                            </div>
+                            <div class="card-topic">
+                                <h4>{{ gh_topic }}</h4>
+                            </div>
+                            <div class="card-title">
+                                <h4>
+                                    <a href="{{ gh_url }}">
+                                        <b>{{ gh_name }}</b>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="content-container">
+                                <p>{{ gh_description }}</p>
+                                <div id="card-buttons">
+                                    {{#buttons}}
+                                        <a href="{{ url }}">{{ name }}</a>
+                                    {{/buttons}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{/github}}
+            {{/cards}}
+            {{#cards}}
+                {{^github}}
+                <div class="pure-u-md-1-3 pure-u-1-1">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="{{ image }}" alt="avatar" class="pure-img"/>
+                        </div>
+                        <div class="card-topic">
+                            <h4>{{ topic }}</h4>
+                        </div>
+                        <div class="card-title">
+                            {{#link}}
+                                <h4>
+                                    <a href="{{ link }}">
+                                        <b>{{ title }}</b>
+                                    </a>
+                                </h4>
+                            {{/link}}
+                            {{^link}}
+                            <h4>
+                                <b>{{ title }}</b>
+                            </h4>
+                        {{/link}}
+                    </div>
+                    <div class="content-container">
+                        <p>{{ content }}</p>
+                        <div id="card-buttons">
+                            {{#buttons}}
+                                <a href="{{ url }}">{{ name }}</a>
+                            {{/buttons}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{/github}}
     {{/cards}}
-    {{#cards}}
-    {{^github}}
-    <div class="pure-u-md-1-3 pure-u-1-1">
-      <div class="card">
-        <div class="card-img">
-          <img src="{{ image }}" alt="avatar" class="pure-img" />
-        </div>
-        <div class="card-topic">
-          <h4>{{ topic }}</h4>
-        </div>
-        <div class="card-title">
-          {{#link}}
-          <h4>
-            <a href="{{ link }}"
-              ><b>{{ title }}</b></a
-            >
-          </h4>
-          {{/link}}
-          {{^link}}
-          <h4>
-            <b>{{ title }}</b>
-          </h4>
-          {{/link}}
-        </div>
-        <div class="content-container">
-          <p>{{ content }}</p>
-          <div id="card-buttons">
-            {{#buttons}}
-            <a href="{{ url }}">{{ name }}</a>
-            {{/buttons}}
-          </div>
-        </div>
-      </div>
-    </div>
-    {{/github}}
-    {{/cards}}
-  </div>
-  <script src="./assets/js/patterns.js"></script>
-  {{/hasCards}}
-  {{#article}}
-  {{ converted_article }}
-  {{/article}}
-  {{#hasContacts}}
-  <div style="overflow-x: auto;">
-    <table class="pure-table">
-      <thead>
-        <tr>
-          <th>Platform</th>
-          <th>Profile</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{#contact}}
-        <tr>
-          <td>{{ host }}</td>
-          {{#url}}
-          <td>
-            <a href="{{ url }}">{{ profile }}</a>
-          </td>
-          {{/url}}
-          {{^url}}
-          <td>{{ profile }}</td>
-          {{/url}}
-        </tr>
-        {{/contact}}
-      </tbody>
-    </table>
-  </div>
-  {{/hasContacts}}
-  {{#hasDonate}}
-  <div style="overflow-x: auto;">
-    <table class="pure-table">
-      <thead>
-        <tr>
-          <th>Platform</th>
-          <th>Profile</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{#donate}}
-        <tr>
-          <td>{{ host }}</td>
-          {{#url}}
-          <td>
-            <a href="{{ url }}">{{ profile }}</a>
-          </td>
-          {{/url}}
-          {{^url}}
-          <td>{{ profile }}</td>
-          {{/url}}
-        </tr>
-        {{/donate}}
-      </tbody>
-    </table>
-  </div>
-  {{/hasDonate}}
 </div>
+<script src="./assets/js/patterns.js"></script>{{/hasCards}}{{#article}}
+{{ converted_article }}{{/article}}{{#hasContacts}}
+<div style="overflow-x: auto;">
+    <table class="pure-table">
+        <thead>
+            <tr>
+                <th>Platform</th>
+                <th>Profile</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#contact}}
+                <tr>
+                    <td>{{ host }}</td>
+                    {{#url}}
+                        <td>
+                            <a href="{{ url }}">{{ profile }}</a>
+                        </td>
+                    {{/url}}
+                    {{^url}}
+                    <td>{{ profile }}</td>
+                {{/url}}
+            </tr>
+        {{/contact}}
+    </tbody>
+</table></div>{{/hasContacts}}{{#hasDonate}}<div style="overflow-x: auto;">
+<table class="pure-table">
+    <thead>
+        <tr>
+            <th>Platform</th>
+            <th>Profile</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#donate}}
+            <tr>
+                <td>{{ host }}</td>
+                {{#url}}
+                    <td>
+                        <a href="{{ url }}">{{ profile }}</a>
+                    </td>
+                {{/url}}
+                {{^url}}
+                <td>{{ profile }}</td>
+            {{/url}}
+        </tr>
+    {{/donate}}
+</tbody></table></div>{{/hasDonate}}</div>
