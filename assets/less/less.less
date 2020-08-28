@@ -384,12 +384,17 @@ tag {
   color: @fg-dark;
   ul {
     padding: 0;
+    .cen-text {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .pure-menu-disabled, .pure-menu-heading, .pure-menu-link {
+      padding: 0;
+    }
   }
   a {
     color: @brand-red;
     font-size: 100%;
-    margin-right: 15px;
-    margin-left: 15px;
   }
   @media (min-width: 48em) {
     text-align: center;

@@ -414,11 +414,18 @@ tag {
 .footer ul {
   padding: 0;
 }
+.footer ul .cen-text {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.footer ul .pure-menu-disabled,
+.footer ul .pure-menu-heading,
+.footer ul .pure-menu-link {
+  padding: 0;
+}
 .footer a {
   color: #a56262;
   font-size: 100%;
-  margin-right: 15px;
-  margin-left: 15px;
 }
 @media (min-width: 48em) {
   .footer {
