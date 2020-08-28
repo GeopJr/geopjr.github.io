@@ -410,6 +410,7 @@ tag {
 .footer {
   padding: 1em 0;
   color: #fff;
+  text-align: center;
 }
 .footer ul {
   padding: 0;
