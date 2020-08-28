@@ -21,27 +21,27 @@ end
 token = ""
 
 OptionParser.parse do |parser|
-	parser.banner = "Usage: crustache [arguments]"
-	parser.on("-t", "--token=TOKEN", "Upcases the salute") {|t| token = t }
-	parser.on("-h", "--help", "Show this help") do
-	  puts parser
-	  exit
-	end
-	parser.missing_option do |flag|
-		STDERR.puts "ERROR: #{flag} is missing."
-		STDERR.puts parser
-		exit(1)
-	  end
-	parser.invalid_option do |flag|
-	  STDERR.puts "ERROR: #{flag} is not a valid option."
-	  STDERR.puts parser
-	  exit(1)
-	end
+  parser.banner = "Usage: crustache [arguments]"
+  parser.on("-t", "--token=TOKEN", "Upcases the salute") { |t| token = t }
+  parser.on("-h", "--help", "Show this help") do
+    puts parser
+    exit
   end
+  parser.missing_option do |flag|
+    STDERR.puts "ERROR: #{flag} is missing."
+    STDERR.puts parser
+    exit(1)
+  end
+  parser.invalid_option do |flag|
+    STDERR.puts "ERROR: #{flag} is not a valid option."
+    STDERR.puts parser
+    exit(1)
+  end
+end
 
 if token == ""
-	STDERR.puts "ERROR: token is missing."
-	exit(1) 
+  STDERR.puts "ERROR: token is missing."
+  exit(1)
 end
 
 puts "Script started"
@@ -97,10 +97,10 @@ Dir.glob("*.json").each do |file|
             cards[item]["gh_name"] = value["full_name"].to_s
             cards[item]["gh_url"] = value["html_url"].to_s
             cards[item]["gh_description"] = value["description"].to_s
-			cards[item]["gh_stars"] = value["stargazers_count"].to_s
-		  else
-			puts "[ERROR] GitHub returned " + response.status_code.to_s
-			exit(1);
+            cards[item]["gh_stars"] = value["stargazers_count"].to_s
+          else
+            puts "[ERROR] GitHub returned " + response.status_code.to_s
+            exit(1)
           end
         elsif cards[item].has_key?("github")
           cards[item].delete("github")
