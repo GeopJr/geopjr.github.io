@@ -1,0 +1,49 @@
+{
+  "headline": "Tools",
+  "devider": "brand-blurple",
+  "cards": [
+    {
+      "topic": "Browser",
+      "title": "Mozilla Firefox",
+      "content": "Mozilla, Firefox and the Firefox logo are trademarks of the Mozilla Foundation in the U.S. and other countries.",
+      "image": "https://i.imgur.com/24fcR5w.png",
+      "link": "https://www.mozilla.org/en-US/firefox/new/"
+    },
+    {
+      "topic": "Browser",
+      "title": "Ungoogled Chromium",
+      "github": "false",
+      "content": "Chromium and the Chromium logo are trademarks of The Chromium project.",
+      "image": "https://i.imgur.com/k9BtCgG.png",
+      "link": "https://github.com/Eloston/ungoogled-chromium"
+    },
+    {
+      "topic": "Browser",
+      "title": "Iridium",
+      "content": "Iridium and the Iridium logo are trademarks of NETitwork GmbH.",
+      "image": "https://i.imgur.com/FlVBNq1.png",
+      "link": "https://iridiumbrowser.de/"
+    },
+    {
+      "topic": "Operating System",
+      "title": "Arch Linux",
+      "content": "Arch Linux and the Arch Linux logo are trademarks of Judd Vinet and Aaron Griffin.",
+      "image": "https://i.imgur.com/gLpKIEX.png",
+      "link": "https://www.archlinux.org"
+    },
+    {
+      "topic": "Operating System",
+      "title": "elementary OS",
+      "content": "elementary and the elementary logo are trademarks of elementary, Inc.",
+      "image": "https://i.imgur.com/9slEGDR.png",
+      "link": "https://elementary.io/"
+    },
+    {
+      "topic": "Operating System",
+      "title": "Debian",
+      "content": "Debian and the Debian logo are registered trademark of Software in the Public Interest, Inc.",
+      "image": "https://i.imgur.com/XxDX4Hk.png",
+      "link": "https://www.debian.org/"
+    }
+  ]
+}

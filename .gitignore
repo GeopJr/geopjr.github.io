@@ -1,0 +1,12 @@
+index.html
+*.png
+404.html
+*.xml
+google*.html
+*.txt
+manifest.json
+/*.svg
+*.ico
+*.gif
+.well-known/
+/page_gen/lib/

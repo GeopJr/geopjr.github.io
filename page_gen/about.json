@@ -1,0 +1,20 @@
+{
+    "headline": "About",
+    "devider": "rainbow",
+    "tags": [
+      {
+        "text": "He/Him/They/Them",
+        "type": "brand-red"
+      },
+      {
+        "text": "DEV",
+        "type": "brand-yellow"
+      },
+      {
+        "text": "Programmer",
+        "type": "brand-blurple"
+      }
+    ],
+    "article": "about.md"
+  }
+  

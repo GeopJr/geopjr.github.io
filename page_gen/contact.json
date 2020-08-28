@@ -1,0 +1,68 @@
+{
+  "headline": "Contact",
+  "devider": "rainbow",
+  "contact": [
+    {
+      "host": "GitHub",
+      "profile": "GeopJr",
+      "url": "https://github.com/GeopJr"
+    },
+    {
+      "host": "GitLab",
+      "profile": "GeopJr",
+      "url": "https://gitlab.com/GeopJr"
+    },
+    {
+      "host": "BitBucket",
+      "profile": "GeopJr",
+      "url": "https://bitbucket.org/GeopJr/"
+    },
+    {
+      "host": "Discord",
+      "profile": "『Geop』#4066",
+      "url": "https://discord.gg/7XQNZGq"
+    },
+    {
+      "host": "Mastadon",
+      "profile": "@GeopJr@tech.lgbt",
+      "url": "https://tech.lgbt/@GeopJr"
+    },
+    {
+      "host": "Matrix",
+      "profile": "@geopjr:matrix.org"
+    },
+    {
+      "host": "Pixelfed",
+      "profile": "GeopJr",
+      "url": "https://pixelfed.social/GeopJr"
+    },
+    {
+      "host": "E-mail",
+      "profile": "geopjr@geopjr.xyz"
+    },
+    {
+      "host": "Keybase",
+      "profile": "GeopJr",
+      "url": "https://keybase.io/geopjr"
+    },
+    {
+      "host": "Session",
+      "profile": "058cf74db0d91a2815a7f4be691f62827703501a3a78898a1cacd0916ff16f383f"
+    },
+    {
+      "host": "Steam",
+      "profile": "geopjunior",
+      "url": "https://steamcommunity.com/id/geopjunior"
+    },
+    {
+      "host": "Telegram",
+      "profile": "GeopJr",
+      "url": "https://t.me/geopjr"
+    },
+    {
+      "host": "Twitter",
+      "profile": "Geop_Junior",
+      "url": "https://twitter.com/Geop_Junior"
+    }
+  ]
+}

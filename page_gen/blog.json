@@ -1,0 +1,30 @@
+{
+    "headline": "Blog",
+    "devider": "brand-yellow",
+    "tags": [
+      {
+        "text": "Coding",
+        "type": "brand-red"
+      },
+      {
+        "text": "a11y",
+        "type": "shell"
+      }
+    ],
+    "cards": [
+      {
+        "topic": "A11Y",
+        "title": "Action-Accessibility",
+        "link": "https://dev.to/geopjr/action-accessibility-a-github-action-for-those-in-need-hg7",
+        "image": "https://d2fltix0v2e0sb.cloudfront.net/dev-black.png",
+        "content": "A GitHub action for those in need",
+        "buttons": [
+            {
+              "name": "GitHub",
+              "url": "https://github.com/GeopJr/action-accessibility"
+            }
+          ]
+      }
+    ]
+  }
+  

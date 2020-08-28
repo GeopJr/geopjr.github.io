@@ -1,0 +1,309 @@
+{
+  "headline": "Donate",
+  "devider": "rainbow",
+  "donate": [
+    {
+      "host": "PayPal",
+      "profile": "GeopJr",
+      "url": "https://paypal.me/geopjr"
+    },
+    {
+      "host": "Ko-Fi",
+      "profile": "GeopJr",
+      "url": "https://ko-fi.com/geopjr"
+    },
+    {
+      "host": "LiberaPay",
+      "profile": "GeopJr",
+      "url": "https://liberapay.com/geopjr"
+    },
+    {
+      "host": "ZRX",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "AST",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "ALGO",
+      "profile": "SFOD37F5RTRI73TNQKDEA2HLVYB5A6WZT2S5LQGC2EBKWAKO4JVZB5RY6M"
+    },
+    {
+      "host": "APPC",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "ANT",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "ARK",
+      "profile": "AHku2CZ8JdmtWMiZre78C9McSekQ1spcC1"
+    },
+    {
+      "host": "REP",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "BNT",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "BAT",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "BNB",
+      "profile": "bnb1tcxfp8k3zxvkmwcy02eaxnngrm59h3rlehnp3q"
+    },
+    {
+      "host": "BTC",
+      "profile": "bc1qx0l2samswgstx0ulst90g0pxvcma963qqqchll"
+    },
+    {
+      "host": "BCH",
+      "profile": "qqw7r7vtxj0366rrjxssv9q6s9chjx8j6vm7sqkt2m"
+    },
+    {
+      "host": "BTG",
+      "profile": "GYcqmLdEhdwExg3jEprFmeM8dUe7L4nSfN"
+    },
+    {
+      "host": "BSV",
+      "profile": "1LHwZYkFvL8u3jT7mdkpmW7fc87szFe73e"
+    },
+    {
+      "host": "BTT",
+      "profile": "TRFvyc4P1AYv8FwjFkEQJqiRxHxmYWayeq"
+    },
+    {
+      "host": "ADA",
+      "profile": "Ae2tdPwUPEZACTfGpi8pBqutX2Tx5TES6smKj3FswTRiNdqpUuYqZmshA55"
+    },
+    {
+      "host": "LINK",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "CND",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "CVC",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "COMP",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "ATOM",
+      "profile": "cosmos1twdkx7keajadlx5tnfkygghl3pfgddag6a3d7j"
+    },
+    {
+      "host": "MCO",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "DAI",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "DASH",
+      "profile": "XyUPwv1L25wEaW2hQrDXysE8T7Sdaivu7a"
+    },
+    {
+      "host": "MANA",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "DCR",
+      "profile": "DsiuKLeaWvNHFzHUn7wrT2mpaFw1efyvX7X"
+    },
+    {
+      "host": "DGB",
+      "profile": "DRPYcx8VSyweU9bKypMeuEVNSRgebayNwf"
+    },
+    {
+      "host": "DNT",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "DOGE",
+      "profile": "D9VgLmRkTEYKZTVKjocXg69RMT2QM2F7Kt"
+    },
+    {
+      "host": "ETH",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "ETC",
+      "profile": "0x4B907d050334524A2fcC2062a0139A61fb072517"
+    },
+    {
+      "host": "FUN",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "GNT",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "ICX",
+      "profile": "hx1060b61a885f9037be718a6b71e7dc5e3f21ce19"
+    },
+    {
+      "host": "RLC",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "LSK",
+      "profile": "12412461438589356511L"
+    },
+    {
+      "host": "LTC",
+      "profile": "LaW1RWbgtjdzn2KhiqYqjK24zdPC4Ly57Z"
+    },
+    {
+      "host": "LOOM",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "LUN",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "MKR",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "XMR",
+      "profile": "44UhKAA18RdZwSBb2E6F7QRb8sMD9rWNA756jjk4T9WwLNtenRyyRc4Lov8epS62jyCyYRwj1q6BVVBhJnd9MyDpTe5kyMj"
+    },
+    {
+      "host": "NANO",
+      "profile": "nano_1dhw8rofqqkn9pc1to51n7t68ie9c5qjq648jmkr15e9x49pa4uad933h3xi"
+    },
+    {
+      "host": "XEM",
+      "profile": "NCOAB4UR6NCSPWFAKILXF4X7BQRMUS5OZFDS4CBH"
+    },
+    {
+      "host": "NEO",
+      "profile": "AKiMx5nimvRi63anXZzsueRZEZTYgXD4F6"
+    },
+    {
+      "host": "GAS",
+      "profile": "AKiMx5nimvRi63anXZzsueRZEZTYgXD4F6"
+    },
+    {
+      "host": "OMG",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "ONT",
+      "profile": "ALt48UVLMNvEoxr4mJURq47gw84n8H67Ys"
+    },
+    {
+      "host": "ONG",
+      "profile": "ALt48UVLMNvEoxr4mJURq47gw84n8H67Ys"
+    },
+    {
+      "host": "PAX",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "POE",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "POLY",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "PPT",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "POWR",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "QTUM",
+      "profile": "QZsqE8M1taKD4vWTRct6zQAy7RwHCEWUTu"
+    },
+    {
+      "host": "QSP",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "RVN",
+      "profile": "RWNWoxH5nDdUDH73WSQmz8GxiKekxaEBxD"
+    },
+    {
+      "host": "RCN",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "SNT",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "XLM",
+      "profile": "GCPNGXVKZAT5XBLVEXIGVYUCHP22HF5IMRTHZEKC7N5YGE46ICUXP44F"
+    },
+    {
+      "host": "STORJ",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "PAY",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "USDT",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "XTZ",
+      "profile": "tz1Xj8Qkxp3kEBimJoVPfvKPR8xheN2UHy74"
+    },
+    {
+      "host": "TRX",
+      "profile": "TRFvyc4P1AYv8FwjFkEQJqiRxHxmYWayeq"
+    },
+    {
+      "host": "TUSD",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "USDC",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "VET",
+      "profile": "0x51c40eDa2D47457464193405B65E01995Df93dce"
+    },
+    {
+      "host": "VTHO",
+      "profile": "0x51c40eDa2D47457464193405B65E01995Df93dce"
+    },
+    {
+      "host": "VIB",
+      "profile": "0x166E1FdA88c788e435915CFC3BB823154bd71De1"
+    },
+    {
+      "host": "WAVES",
+      "profile": "3PGGkuk8JA9pS8B3eMYcyrQGBZDFs3CdbXh"
+    },
+    {
+      "host": "XRP",
+      "profile": "rDqkJFiPvG4i2gGAHuYnx6BEDAEPP2HqB7"
+    },
+    {
+      "host": "ZEC",
+      "profile": "t1gt8BDyxCyivFzNigdXtXFBEzsGYLfhMN4"
+    }
+  ]
+}

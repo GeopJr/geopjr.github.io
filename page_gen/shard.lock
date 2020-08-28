@@ -1,0 +1,18 @@
+version: 1.0
+shards:
+  beautify:
+    github: Daniel-Worrall/beautify
+    commit: fb847a1f34d55163000011ce1f280f4a1d33f7e9
+
+  crustache:
+    github: GeopJr/crustache
+    commit: 3fd3b4efdd9d4ef1bbe8a0298ee993c10ae077c9
+
+  duktape:
+    github: jessedoyle/duktape.cr
+    version: 0.20.0
+
+  markd:
+    github: icyleaf/markd
+    commit: 033aeaf067ddae21ac7872af3a935fc17cd01080
+
