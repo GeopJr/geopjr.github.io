@@ -26,6 +26,14 @@
   "cards": [
     {
       "topic": "FOSS",
+      "link": "https://github.com/GeopJr/Crycord"
+    },
+    {
+      "topic": "FOSS",
+      "link": "https://github.com/GeopJr/asar-cr"
+    },
+    {
+      "topic": "FOSS",
       "link": "https://github.com/GeopJr/action-accessibility"
     },
     {
