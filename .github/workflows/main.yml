@@ -4,16 +4,12 @@ on: push
 
 jobs:
   convert_via_pandoc:
-    name: Convert via Pandoc
+    name: Build Pages
     runs-on: ubuntu-18.04
     if: "contains(github.event.head_commit.message, '[build]')"
     steps:
       - uses: actions/checkout@v1
-      - uses: MeilCli/setup-crystal-action@v3.0.0
-        with:
-          crystal_version: 0.34.0
-          shards_version: 0.10.0
-      - name: Run Crystal
+      - name: Run Crystal CLI app
         run: |
           cd page_gen
           ./crustache -t ${{ secrets.GITHUB_TOKEN }}
@@ -22,4 +18,4 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m ":pencil: Generate Pages"
-          git push "https://GeopJr:${{ secrets.GITHUB_TOKEN }}@github.com/GeopJr/Granz-cr.git" HEAD:master
+          git push "https://GeopJr:${{ secrets.GITHUB_TOKEN }}@github.com/GeopJr/GeopJr.github.io.git" HEAD:master
