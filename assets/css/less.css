@@ -33,8 +33,13 @@ i {
   content: "\e903";
   color: #fff;
 }
-.card-gallery > div[class*="pure-u"]:nth-child(n + 4) {
+.card-gallery > div[class*="pure-u"] {
   margin-top: 1.4rem;
+}
+@media (min-width: 48em) {
+  .card-gallery > div[class*="pure-u"]:not(:nth-child(n + 4)) {
+    margin-top: 0rem;
+  }
 }
 .card {
   transition: 0.3s;
@@ -116,6 +121,22 @@ tag.crystal {
   background: #000100;
   color: white;
 }
+tag.brand-yellow {
+  background: #faf3d4;
+  color: black;
+}
+tag.ruby {
+  background: #c62527;
+  color: black;
+}
+tag.javascript {
+  background: #f9f2b8;
+  color: black;
+}
+tag.shell {
+  background: #c4efa8;
+  color: black;
+}
 tag.brand-blurple {
   background: #bfbbde;
   color: #4c34ff;
@@ -128,29 +149,13 @@ tag.brand-red {
   background: #caa3a3;
   color: #ff0808;
 }
-tag.brand-yellow {
-  background: #faf3d4;
-  color: #ffe569;
-}
 tag.discord {
   background: #c3cdef;
   color: #4d74ff;
 }
-tag.shell {
-  background: #c4efa8;
-  color: #82ff32;
-}
-tag.ruby {
-  background: #c62527;
-  color: #850001;
-}
 tag.obj-c {
   background: #a9cbff;
   color: #438eff;
-}
-tag.javascript {
-  background: #f9f2b8;
-  color: #ffeb4c;
 }
 tag.html {
   background: #ef9780;
@@ -371,23 +376,11 @@ tag {
 .title.brand-red::after {
   background: #a56262;
 }
-.title.brand-yellow::after {
-  background: #f0db78;
-}
 .title.discord::after {
   background: #7289da;
 }
-.title.shell::after {
-  background: #89e051;
-}
-.title.ruby::after {
-  background: #701516;
-}
 .title.obj-c::after {
   background: #438eff;
-}
-.title.javascript::after {
-  background: #f1e05a;
 }
 .title.html::after {
   background: #e34c26;
@@ -400,6 +393,9 @@ tag {
 }
 .content {
   padding: 2em 1em 0;
+  display: flex !important;
+  flex-direction: column;
+  min-height: 100vh;
 }
 @media (min-width: 48em) {
   .content {
@@ -443,8 +439,8 @@ button#navToggle {
   color: #fff;
   padding: 0;
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border: 1px outset #262329;
   background-color: #262329;
   cursor: pointer;
@@ -461,6 +457,10 @@ nav.nav#nav-buttons {
   nav.nav#nav-buttons {
     display: block;
   }
+}
+.spacer {
+  flex: 1;
+  min-height: 2vh;
 }
 body {
   background-color: #1a181c;

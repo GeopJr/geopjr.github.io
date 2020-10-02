@@ -22,6 +22,7 @@ if ($request == "" || $request == "/") {
     <?php include 'partials/navbar.html'; ?>
       <div class="content pure-u-1 pure-u-md-3-4">
       <?php include 'pages' . $page . '.html'; ?>
+      <div class="spacer"></div>
       <?php include 'partials/footer.html'; ?>
       </div>
     </div>

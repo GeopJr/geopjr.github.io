@@ -3,19 +3,20 @@
 ## I've been programming for about 5 years, mainly as a freelance full-stack web dev.
 ## I mainly enjoy writing in and use the following languages and technologies:
 
-- CSS
-- Less
-- Javascript
-- Nodejs
-- Ruby
+- C
 - Crystal
-- PHP
+- CSS
 - Elixir
+- Javascript
+- Less
+- Nodejs
 - Obj-C
+- PHP
+- Ruby
 
-## I am very vocal about my support for privacy, de-googling and the [fediverse](https://fediverse.party/)
+## I am very vocal about my support for privacy, de-googling and the [fediverse](https://fediverse.party/).
 
-## You can see most of my work in the [WORK](./work) page and on my [GitHub](https://github.com/GeopJr) profile.
+## You can see some of my work in the [WORK](./work) page and on my [GitHub](https://github.com/GeopJr) profile.
 
 ## You can find some of my blog posts in the [BLOG](./blog) page.
 

@@ -5,45 +5,65 @@
     {
       "topic": "Browser",
       "title": "Mozilla Firefox",
-      "content": "Mozilla, Firefox and the Firefox logo are trademarks of the Mozilla Foundation in the U.S. and other countries.",
+      "content": "Firefox is the best combination between privacy and usability. Offers amazing web-dev tools!",
       "image": "https://i.imgur.com/24fcR5w.png",
       "link": "https://www.mozilla.org/en-US/firefox/new/"
     },
     {
       "topic": "Browser",
       "title": "Ungoogled Chromium",
-      "github": "false",
-      "content": "Chromium and the Chromium logo are trademarks of The Chromium project.",
+      "content": "Chromium minus Google('s excessive tracking and data collection).",
       "image": "https://i.imgur.com/k9BtCgG.png",
       "link": "https://github.com/Eloston/ungoogled-chromium"
     },
     {
       "topic": "Browser",
-      "title": "Iridium",
-      "content": "Iridium and the Iridium logo are trademarks of NETitwork GmbH.",
-      "image": "https://i.imgur.com/FlVBNq1.png",
-      "link": "https://iridiumbrowser.de/"
+      "title": "TOR Browser",
+      "content": "The most privacy-protective browser. Based on Firefox ESR.",
+      "image": "https://i.imgur.com/TiGLwDA.png",
+      "link": "https://www.torproject.org/"
+    },
+    {
+      "topic": "Operating System",
+      "title": "Void Linux",
+      "content": "'If this is the solution, I want my problem back.' ~nosystemd.org",
+      "image": "https://i.imgur.com/YX9HsLf.png",
+      "link": "https://voidlinux.org/"
     },
     {
       "topic": "Operating System",
       "title": "Arch Linux",
-      "content": "Arch Linux and the Arch Linux logo are trademarks of Judd Vinet and Aaron Griffin.",
+      "content": "I (sometimes) use Arch BTW.",
       "image": "https://i.imgur.com/gLpKIEX.png",
       "link": "https://www.archlinux.org"
     },
     {
       "topic": "Operating System",
       "title": "elementary OS",
-      "content": "elementary and the elementary logo are trademarks of elementary, Inc.",
+      "content": "elementaryOS offers a unique design, appstore, DE and application. A unique ecosystem.",
       "image": "https://i.imgur.com/9slEGDR.png",
       "link": "https://elementary.io/"
     },
     {
-      "topic": "Operating System",
-      "title": "Debian",
-      "content": "Debian and the Debian logo are registered trademark of Software in the Public Interest, Inc.",
-      "image": "https://i.imgur.com/XxDX4Hk.png",
-      "link": "https://www.debian.org/"
+      "topic": "Editor",
+      "title": "Spacemacs",
+      "content": "Emacs + Vim. But better.",
+      "image": "https://i.imgur.com/OqziiHd.png",
+      "link": "https://www.spacemacs.org/"
+    },
+    {
+      "topic": "Editor",
+      "title": "Atom",
+      "content": "A hackable editor, using electron.",
+      "image": "https://i.imgur.com/f6yj55w.png",
+      "link": "https://atom.io/"
+    },
+    {
+      "topic": "Editor",
+      "title": "Builder",
+      "content": "A powerful editor using GTK. Fits all GNOME based DEs.",
+      "image": "https://i.imgur.com/Lr5pT0N.png",
+      "link": "https://wiki.gnome.org/Apps/Builder"
     }
   ]
 }

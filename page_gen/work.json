@@ -63,6 +63,10 @@
       "link": "https://github.com/GeopJr/DrKahls-Time-Machine"
     },
     {
+      "topic": "FOSS",
+      "link": "https://github.com/bara-pictures/bara.pictures"
+    },
+    {
       "topic": "CLOSED SOURCE",
       "title": "Soft & Wet",
       "content": "Soft & Wet is a Discord Bot written in javascript. It uses advanced image manipulation to create new images from image templates in under a second!",

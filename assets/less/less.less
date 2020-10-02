@@ -49,11 +49,17 @@
 @fg-white: #000;
 @fg-dark: #fff;
 
-@colors: css, elixir, html, javascript, obj-c, ruby, shell, discord,
-  brand-yellow, brand-red, brand-dark, brand-blurple;
+@colors: css, elixir, html, obj-c, discord, brand-red, brand-dark, brand-blurple;
 
-.card-gallery > div[class*="pure-u"]:nth-child(n + 4) {
+@colors-cont: shell, javascript, ruby, brand-yellow;
+
+.card-gallery > div[class*="pure-u"] {
   margin-top: 1.4rem;
+  @media (min-width: 48em) {
+    &:not(:nth-child(n + 4)) {
+      margin-top: 0rem;
+    }
+  }
 }
 
 .card {
@@ -138,6 +144,18 @@
 tag.crystal {
   background: @crystal;
   color: white;
+}
+
+tag {
+  .-(@i: length(@colors-cont)) when (@i > 0) {
+    @name: extract(@colors-cont, @i);
+    &.@{name} {
+      background: lighten(@@name, 20%);
+      color: black;
+    }
+    .-((@i - 1));
+  }
+  .-;
 }
 
 tag {
@@ -374,6 +392,9 @@ tag {
 }
 .content {
   padding: 2em 1em 0;
+  display: flex !important;
+  flex-direction: column;
+  min-height: 100vh;
   @media (min-width: 48em) {
     padding: 2em 3em 0;
     margin-left: 25%;
@@ -389,7 +410,9 @@ tag {
       margin-right: 10px;
       margin-left: 10px;
     }
-    .pure-menu-disabled, .pure-menu-heading, .pure-menu-link {
+    .pure-menu-disabled,
+    .pure-menu-heading,
+    .pure-menu-link {
       padding: 0;
     }
   }
@@ -415,8 +438,8 @@ button#navToggle {
   color: #fff;
   padding: 0;
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border: 1px outset @brand-dark;
   background-color: @brand-dark;
   cursor: pointer;
@@ -429,6 +452,11 @@ nav.nav#nav-buttons {
   @media (min-width: 48em) {
     display: block;
   }
+}
+
+.spacer {
+  flex: 1;
+  min-height: 2vh;
 }
 
 body {
