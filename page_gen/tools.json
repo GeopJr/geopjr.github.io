@@ -12,6 +12,7 @@
     {
       "topic": "Browser",
       "title": "Ungoogled Chromium",
+      "github": "false",
       "content": "Chromium minus Google('s excessive tracking and data collection).",
       "image": "https://i.imgur.com/k9BtCgG.png",
       "link": "https://github.com/Eloston/ungoogled-chromium"
