@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Action-Accessibility",
+    "desc": "A GitHub action for those in need",
+    "url": "https://dev.to/geopjr/action-accessibility-a-github-action-for-those-in-need-hg7",
+    "date": "2020-08-20",
+    "tags": ["actionshackathon", "a11y", "dyslexia", "actions"]
+  },
+  {
+    "title": "asar-cr",
+    "desc": "Injecting electron apps with Crystal",
+    "url": "https://dev.to/geopjr/injecting-electron-apps-with-crystal-4nlk",
+    "date": "2020-10-13",
+    "tags": ["crystal", "electron", "discord", "asar"]
+  },
+  {
+    "title": "Sticker-debate",
+    "desc": "For those who have too many stickers",
+    "url": "https://dev.to/geopjr/sticker-debate-for-those-who-have-too-many-stickers-46ba",
+    "date": "2020-11-03",
+    "tags": ["vue", "node", "material", "express"]
+  }
+]

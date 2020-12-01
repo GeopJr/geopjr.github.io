@@ -1,0 +1,28 @@
+{
+  "slogan": "Just a hobbyist programmer",
+  "techs": [
+    "Angular",
+    "C",
+    "Crystal",
+    "CSS",
+    "Elixir",
+    "JS",
+    "Less",
+    "NativeScript",
+    "NodeJs",
+    "Obj-C",
+    "PHP",
+    "Ruby",
+    "Shell",
+    "Vue"
+  ],
+  "interests": [
+    "Privacy",
+    "FLOSS",
+    "Cyber-security",
+    "Decentralization",
+    "Encryption",
+    "P2P",
+    "De-googling"
+  ]
+}

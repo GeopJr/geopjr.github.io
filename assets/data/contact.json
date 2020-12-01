@@ -1,0 +1,79 @@
+[{
+    "name": "GitHub",
+    "address": "GeopJr",
+    "url": "https://github.com/GeopJr",
+    "emoji": "fa-github"
+  },
+  {
+    "name": "GitLab",
+    "address": "GeopJr",
+    "url": "https://gitlab.com/GeopJr",
+    "emoji": "fa-gitlab"
+  },
+  {
+    "name": "BitBucket",
+    "address": "GeopJr",
+    "url": "https://bitbucket.org/GeopJr/",
+    "emoji": "fa-bitbucket"
+  },
+  {
+    "name": "Discord",
+    "address": "GeopJr#4066",
+    "url": "https://discord.gg/7XQNZGq",
+    "emoji": "fa-discord"
+  },
+  {
+    "name": "Mastodon",
+    "address": "@GeopJr@tech.lgbt",
+    "url": "https://tech.lgbt/@GeopJr",
+    "emoji": "fa-mastodon"
+  },
+  {
+    "name": "Matrix.org",
+    "address": "@geopjr:matrix.org",
+    "url": null,
+    "emoji": "fa-matrix-org"
+  },
+  {
+    "name": "Pixelfed",
+    "address": "GeopJr",
+    "url": "https://pixelfed.social/GeopJr",
+    "emoji": "fa-pixelfed"
+  },
+  {
+    "name": "e-mail",
+    "address": "geopjr@geopjr.xyz",
+    "url": "mailto:geopjr@geopjr.xyz",
+    "emoji": "fa-envelope"
+  },
+  {
+    "name": "Keybase",
+    "address": "GeopJr",
+    "url": "https://keybase.io/geopjr",
+    "emoji": "fa-keybase"
+  },
+  {
+    "name": "Session",
+    "address": "058cf74db0d91a2815a7f4be691f62827703501a3a78898a1cacd0916ff16f383f",
+    "url": null,
+    "emoji": "fa-comments"
+  },
+  {
+    "name": "Steam",
+    "address": "steamcommunity.com/id/geopjunior",
+    "url": "https://steamcommunity.com/id/geopjunior",
+    "emoji": "fa-steam"
+  },
+  {
+    "name": "Telegram",
+    "address": "@GeopJr",
+    "url": "https://t.me/geopjr",
+    "emoji": "fa-telegram"
+  },
+  {
+    "name": "Twitter",
+    "address": "@Geop_Junior",
+    "url": "https://twitter.com/Geop_Junior",
+    "emoji": "fa-twitter"
+  }
+]

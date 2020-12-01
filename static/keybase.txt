@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/geopjr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://geopjr.xyz
+  * I am geopjr (https://keybase.io/geopjr) on keybase.
+  * I have a public key ASC8VVQf31P_YARkJi4N0N6czZyEChgs0rgvvtu-I7c3Ego
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ab7401f45f5674e4e452d98fd9a0558bbd340098ccad0e8fa2b8b5a74d4873e30a",
+      "host": "keybase.io",
+      "kid": "0120bc55541fdf53ff600464262e0dd0de9ccd9c840a182cd2b82fbedbbe23b737120a",
+      "uid": "16fe004bb6f289e5239b31ccaeebd719",
+      "username": "geopjr"
+    },
+    "merkle_root": {
+      "ctime": 1556622279,
+      "hash": "13431582feabbebf60efbd0f289fe49d46bccdc84083950493f7b8cb0312f11055a71d2be4ee4b7090b36126c90f1b3c050ea61dddf1f6919473b7ab943c51db",
+      "hash_meta": "9082a805b0bed44719fafc26df89306446c8c5a32ec1ee34b551b5a216b7255e",
+      "seqno": 5269106
+    },
+    "service": {
+      "entropy": "lQNTEYWdgf5MZii8U3rpUpMt",
+      "hostname": "geopjr.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.2"
+  },
+  "ctime": 1556622300,
+  "expire_in": 504576000,
+  "prev": "6f003ebb3b41688e1b79f712e70dbaca89e1b8813c1e4e7254ef46e547768d22",
+  "seqno": 40,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgvFVUH99T/2AEZCYuDdDenM2chAoYLNK4L77bviO3NxIKp3BheWxvYWTESpcCKMQgbwA+uztBaI4befcS5w26yonhuIE8Hk5yVO9G5Ud2jSLEINqdB4FG4MGbfmLZta9xLU/P9N/m8XSEgVK4H8Tepgi4AgHCo3NpZ8RAtU/2YmxxLAw7Vj3lZWdnet3cgEFqKf1DAogoZGFEDVjvzorhxVAwRujhjIvKoGkGH0xbH74X7NSoINi16d/FAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIA5uUCryvDmWLZGuP9v7db0Hpx9YWWyjuwnwbAgC0I1oo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/geopjr
+
+==================================================================
