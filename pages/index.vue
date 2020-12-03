@@ -1,7 +1,8 @@
 <template>
   <v-container fill-height>
     <v-row>
-      <v-col cols="12" md="4" sm="6">
+      <v-spacer />
+      <v-col cols="12" xl="3" md="4" sm="6">
         <v-card elevation="2" shaped>
           <v-img alt="GeopJr's mascot" src="/assets/images/avi.png" max-height="500px" contain />
           <v-card-title>
@@ -23,7 +24,7 @@
           </v-card-actions>
         </v-card>
       </v-col>
-      <v-col cols="12" md="8" height="100%" sm="6">
+      <v-col cols="12" xl="6" md="8" height="100%" sm="6">
         <v-card elevation="2" shaped>
           <v-img src="/assets/images/miroslava-flowers.jpg" height="200px" />
           <v-card-subtitle>
@@ -50,6 +51,7 @@
           </v-card-text>
         </v-card>
       </v-col>
+      <v-spacer />
     </v-row>
   </v-container>
 </template>
