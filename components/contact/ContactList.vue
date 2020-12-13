@@ -4,7 +4,7 @@
       <v-expansion-panel-header :expand-icon="contact.emoji">
         {{ contact.name }}
       </v-expansion-panel-header>
-      <v-expansion-panel-content>
+      <v-expansion-panel-content eager>
         <div v-if="contact.url && (contact.url.startsWith('http') || contact.url.startsWith('mailto'))" style="overflow-x:auto">
           <a :href="contact.url" class="accent--text">{{ contact.address }}</a>
         </div>
