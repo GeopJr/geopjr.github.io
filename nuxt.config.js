@@ -51,9 +51,13 @@ export default {
     '@/plugins/fork-awesome'
   ],
   components: true,
+  // Reduces vuetify size apparently
+  build: {
+    extractCSS: true
+  },
   buildModules: [
     '@nuxtjs/eslint-module',
-    '@nuxtjs/vuetify'
+    ['@nuxtjs/vuetify', { treeShake: true }]
   ],
   modules: [
     '@nuxtjs/svg-sprite'
