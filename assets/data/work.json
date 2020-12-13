@@ -50,6 +50,16 @@
     ]
   },
   {
+    "name": "SHRP Theme Builder",
+    "desc": "A theme builder for the SHRP android recovery project",
+    "url": "https://github.com/GeopJr/shrp-theme-builder-web",
+    "extra": [{
+        "name": "Website",
+        "url": "https://shrp.geopjr.xyz/"
+      }
+    ]
+  },
+  {
     "name": "matrixcr",
     "desc": "A Work In Progress matrix.org API wrapper for Crystal",
     "url": "https://github.com/GeopJr/matrixcr",

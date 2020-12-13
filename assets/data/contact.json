@@ -17,10 +17,28 @@
     "emoji": "fa-bitbucket"
   },
   {
+    "name": "e-mail",
+    "address": "geopjr@geopjr.xyz",
+    "url": "mailto:geopjr@geopjr.xyz",
+    "emoji": "fa-envelope"
+  },
+  {
     "name": "Discord",
     "address": "GeopJr#4066",
     "url": "https://discord.gg/7XQNZGq",
     "emoji": "fa-discord"
+  },
+  {
+    "name": "Keybase",
+    "address": "GeopJr",
+    "url": "https://keybase.io/geopjr",
+    "emoji": "fa-keybase"
+  },
+  {
+    "name": "Linkedin",
+    "address": "GeopJr",
+    "url": "https://www.linkedin.com/in/evangelos-paterakis/",
+    "emoji": "fa-linkedin"
   },
   {
     "name": "Mastodon",
@@ -41,20 +59,8 @@
     "emoji": "fa-pixelfed"
   },
   {
-    "name": "e-mail",
-    "address": "geopjr@geopjr.xyz",
-    "url": "mailto:geopjr@geopjr.xyz",
-    "emoji": "fa-envelope"
-  },
-  {
-    "name": "Keybase",
-    "address": "GeopJr",
-    "url": "https://keybase.io/geopjr",
-    "emoji": "fa-keybase"
-  },
-  {
     "name": "Session",
-    "address": "058cf74db0d91a2815a7f4be691f62827703501a3a78898a1cacd0916ff16f383f",
+    "address": "Ask me",
     "url": null,
     "emoji": "fa-comments"
   },
