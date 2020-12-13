@@ -62,6 +62,7 @@ export default {
   modules: [
     '@nuxtjs/svg-sprite'
   ],
+  generate: { fallback: '404.html' },
   vuetify: {
     icons: {
       iconfont: 'fa'
