@@ -19,5 +19,12 @@
     "url": "https://dev.to/geopjr/sticker-debate-for-those-who-have-too-many-stickers-46ba",
     "date": "2020-11-03",
     "tags": ["vue", "node", "material", "express"]
+  },
+  {
+    "title": "Crycord-GUI",
+    "desc": "Creating fast GUIs with Crystal, GTK and Glade ",
+    "url": "https://dev.to/geopjr/creating-fast-guis-with-crystal-gtk-and-glade-en6",
+    "date": "2020-12-19",
+    "tags": ["crystal", "gtk", "glade", "gui"]
   }
 ]
