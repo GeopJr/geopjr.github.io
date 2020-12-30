@@ -65,6 +65,7 @@ export default {
     .card-actions {
         position: absolute;
         bottom: 0;
+        right: 0;
     }
 }
 </style>
