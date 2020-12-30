@@ -57,13 +57,18 @@ export default {
   },
   buildModules: [
     '@nuxtjs/eslint-module',
-    ['@nuxtjs/vuetify', { treeShake: true }]
+    ['@nuxtjs/vuetify', { customVariables: ['~/assets/variables.scss'], treeShake: true }]
   ],
   modules: [
     '@nuxtjs/svg-sprite'
   ],
   generate: { fallback: '404.html' },
   vuetify: {
+    breakpoint: {
+      thresholds: {
+        xl: 12000
+      }
+    },
     icons: {
       iconfont: 'fa'
     },
