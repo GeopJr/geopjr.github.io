@@ -25,7 +25,7 @@
   {
     "name": "Discord",
     "address": "GeopJr#4066",
-    "url": "https://discord.gg/7XQNZGq",
+    "url": null,
     "emoji": "fa-discord"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "name": "Linkedin",
-    "address": "GeopJr",
+    "address": "Evangelos Paterakis",
     "url": "https://www.linkedin.com/in/evangelos-paterakis/",
     "emoji": "fa-linkedin"
   },
