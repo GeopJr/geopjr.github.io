@@ -14,7 +14,7 @@
         <v-btn-toggle rounded router>
           <v-tooltip v-for="page in pages" :key="page.endpoint" bottom>
             <template v-slot:activator="{ on, attrs }">
-              <v-btn v-bind="attrs" :to="'/' + page.endpoint" v-on="on">
+              <v-btn :aria-label="page.aria" v-bind="attrs" :to="'/' + page.endpoint" v-on="on">
                 <v-icon medium>
                   fa-{{ page.icon }}
                 </v-icon>
@@ -58,23 +58,28 @@ export default {
     pages: [{
       endpoint: '',
       icon: 'home',
-      brand: false
+      brand: false,
+      aria: 'Home'
     }, {
       endpoint: 'work',
       icon: 'briefcase',
-      brand: false
+      brand: false,
+      aria: 'Work'
     }, {
       endpoint: 'blog',
       icon: 'dev-to',
-      brand: true
+      brand: true,
+      aria: 'Blog'
     }, {
       endpoint: 'donate',
       icon: 'money',
-      brand: false
+      brand: false,
+      aria: 'Donate'
     }, {
       endpoint: 'contact',
       icon: 'id-card',
-      brand: false
+      brand: false,
+      aria: 'Contact'
     }]
   })
 }

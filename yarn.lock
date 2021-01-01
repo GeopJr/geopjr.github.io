@@ -4017,11 +4017,6 @@ foreach@^2.0.5:
   resolved "https://registry.yarnpkg.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
   integrity sha1-C+4AUBiusmDQo6865ljdATbsG5k=
 
-fork-awesome@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/fork-awesome/-/fork-awesome-1.1.7.tgz#1427da1cac3d1713046ee88427e5fcecb9501d21"
-  integrity sha512-IHI7XCSXrKfUIWslse8c/PaaVDT1oBaYge+ju40ihL2ooiQeBpTr4wvIXhgTd2NuhntlvX+M5jYHAPTzNlmv0g==
-
 forwarded@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"

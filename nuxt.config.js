@@ -9,7 +9,15 @@ export default {
     color: '#f0db78'
   },
   target: 'static',
+  render: {
+    static: {
+      maxAge: 60 * 60 * 24 * 30 * 1000,
+    }
+  },
   head: {
+    htmlAttrs: {
+      lang: 'en'
+    },
     titleTemplate: '%s - GeopJr',
     title: 'Portfolio',
     meta: [
@@ -32,6 +40,8 @@ export default {
     ],
     link: [
       { rel: 'canonical', href: 'https://geopjr.xyz' },
+      // Font
+      { rel: 'preload stylesheet prefetch', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css', integrity: 'sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=', crossorigin: 'anonymous', as: 'style' },
       // Favicons
       { rel: 'icon', sizes: '32x32', type: 'image/png', href: '/favicons/favicon-32x32.png?v=2' },
       { rel: 'icon', sizes: '16x16', type: 'image/png', href: '/favicons/favicon-16x16.png?v=2' },
@@ -47,8 +57,7 @@ export default {
     ]
   },
   plugins: [
-    '@/plugins/cryptoicon',
-    '@/plugins/fork-awesome'
+    '@/plugins/cryptoicon'
   ],
   components: true,
   // Reduces vuetify size apparently
